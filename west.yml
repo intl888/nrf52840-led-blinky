@@ -1,0 +1,12 @@
+manifest:
+  remotes:
+    - name: ncs
+      url-base: https://github.com/nrfconnect
+  projects:
+    - name: nrf
+      path: nrf
+      remote: ncs
+      revision: v2.6.1  # Use the version of your installed SDK
+      import: true
+  self:
+    path: application
